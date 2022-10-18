@@ -72,3 +72,27 @@ and
 ```bash
 sudo apt upgrade
 ```
+
+
+## My VS Code Extensions
+
+- Dev Container
+- GitHub Pull Requests and Issues
+- GitLens Git Supercharged
+- Jupyter
+- Jupyter Cell Tags
+- Jupyter Keymap
+- Jupyter Notebook Renderers
+- Jupyter Slide Show
+- Markdown All in One
+- markdownlint
+- Pylance
+- Python
+- R
+- Rainbow CSV
+- Remote - SSH
+- Remote - SSH: Editing Configuration Files
+- Remote Development
+- Shellcheck
+- vscode-pdf
+- WSL
