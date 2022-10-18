@@ -1,4 +1,4 @@
-# Introduction
+# Instructions
 
 ## Setting up ssh authentication keys
 
@@ -27,3 +27,9 @@ cat ~/.ssh/id_rsa.pub | ssh username@login.genome.au.dk 'cat >> .ssh/authorized_
 ```
 
 From now on you can log into the cluster from your local machine without being prompted for a password.
+
+## GitHub
+
+GitHub can be very practical for backing up files related to your project, keeping version control, and making information sharing easier. If you want you can create a [GitHub account here](https://github.com/)
+
+https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-github-account/
