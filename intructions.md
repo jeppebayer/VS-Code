@@ -30,6 +30,20 @@ From now on you can log into the cluster from your local machine without being p
 
 ## GitHub
 
-GitHub can be very practical for backing up files related to your project, keeping version control, and making information sharing easier. If you want you can create a [GitHub account here](https://github.com/)
+GitHub can be very practical for backing up files related to your project, keeping version control, and making information sharing easier. If you want you can create a [GitHub account here](https://github.com/).  
+To add your ssh keys to GitHub intructions can be found [here](https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-github-account/).
 
-https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-github-account/
+### Git
+
+[Git](https://git-scm.com/) is a version control tool that you can use from the terminal
+
+While logged into the cluster run these two commands and let Git know who you are:
+
+```bash
+git config --global user.name "<your_github_username>"
+git config --global user.email <your_email@whatever.com>
+```
+
+## Visual Studio Code
+
+[VS Code](https://code.visualstudio.com/) is great for developing scripts and editing text files. Once you have installed VS Code, you should install the "Remote Development" extension. You do that by clicking the funny squares in the left bar and search for "Remote Development". Once installed, you can click the small green square in the lower-left corner to connect to the cluster. Select "Connect current window to host" then "Add new SSH host", then type `<username>@login.genome.au.dk`, then select the config file `.ssh/config`. Now you can click the small green square in the lower-left corner to connect to the cluster by selecting `login.genome.au.dk`. It may take a bit, but once it is done installing a remote server, you will have access to the files in your home folder on the cluster.
