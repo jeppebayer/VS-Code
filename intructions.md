@@ -50,7 +50,7 @@ git config --global user.email <your_email@whatever.com>
 
 ## Window Subsystem for Linux (WSL)
 
-Windows Subsystem for Linux allows you to install a complete Ubuntu terminal environment in minutes on your Windows machine, allowing you to develop cross-platform applications without leaving Windows. WSL is a wonderful tool it, however, does not have the ability to run graphical Linux applications, this limitations can be circumvented using, for instance, [MoobaXterm](https://mobaxterm.mobatek.net/).
+Windows Subsystem for Linux allows you to install a complete Ubuntu terminal environment in minutes on your Windows machine, allowing you to develop cross-platform applications without leaving Windows. WSL is a wonderful tool it, however, does not have the ability to run graphical Linux applications, this limitations can be circumvented using, for instance, [MobaXterm](https://mobaxterm.mobatek.net/).
 
 To install WSL go to the Windows PowerShell and **run as adminitrator**. In the command prompt type:
 
