@@ -47,3 +47,28 @@ git config --global user.email <your_email@whatever.com>
 ## Visual Studio Code
 
 [VS Code](https://code.visualstudio.com/) is great for developing scripts and editing text files. Once you have installed VS Code, you should install the "Remote Development" extension. You do that by clicking the funny squares in the left bar and search for "Remote Development". Once installed, you can click the small green square in the lower-left corner to connect to the cluster. Select "Connect current window to host" then "Add new SSH host", then type `<username>@login.genome.au.dk`, then select the config file `.ssh/config`. Now you can click the small green square in the lower-left corner to connect to the cluster by selecting `login.genome.au.dk`. It may take a bit, but once it is done installing a remote server, you will have access to the files in your home folder on the cluster.
+
+## Window Subsystem for Linux (WSL)
+
+Windows Subsystem for Linux allows you to install a complete Ubuntu terminal environment in minutes on your Windows machine, allowing you to develop cross-platform applications without leaving Windows. WSL is a wonderful tool it, however, does not have the ability to run graphical Linux applications, this limitations can be circumvented using, for instance, [MoobaXterm](https://mobaxterm.mobatek.net/).
+
+To install WSL go to the Windows PowerShell and **run as adminitrator**. In the command prompt type:
+
+```bash
+wsl --install -d ubuntu
+```
+
+This also automatically install Ubuntu. For WSL to be properly activated you have to restart your computer. Once installed and your computer has been restarted you can launch the application directly from the search bar by typing *Ubuntu*.
+
+When first you run WSL you will be propmpted to configure your Linux distribution for initial setup. You will need to create a username and password (These do not need to match your Windows user credentials).  
+For good measure, after the configuration, you should install the latest updates for your Linux distribution running the following commands in WSL:
+
+```bash
+sudo apt update
+```
+
+and
+
+```bash
+sudo apt upgrade
+```
